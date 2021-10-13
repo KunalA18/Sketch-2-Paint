@@ -106,13 +106,39 @@ git clone https://github.com/KunalA18/Sketch-2-Paint
 
 
 <!-- USAGE EXAMPLES -->
-## Usage
-* After cloning the repo transfer the files to your project folder. Open terminal and go to the project folder and run the following commands
-```sh
-cd .../projectfolder
-python3 landmarks.py
-```
 
+## Usage
+
+Once the requirements are checked, you can easily download this project and use it on your machine in few simple steps.
+
+* **STEP 1** <br>
+    Download this repository as a zip file onto your machine and extract all the files from it.
+
+    ![Download and Extract Zip Folder](./assets/DownloadAndExtractFiles.gif)
+
+    <br>
+
+* **STEP 2** <br>
+  Run the [runModel.py](./runModel.py) file using python to see the solution
+
+  ![Run runModel.py Using Python](./assets/RunModelPythonFile.gif)
+
+  <br>
+
+> NOTE:
+>
+> 1 - You will have to change the path to dataset as per your machine environment on line #12. You can download the dataset from Kaggle at [https://www.kaggle.com/ktaebum/anime-sketch-colorization-pair](https://www.kaggle.com/ktaebum/anime-sketch-colorization-pair).
+>  
+> 2 - GANs are resource intensive models so if you run into OutOfMemory or such erros, try customizing the variables as per your needs available from line #15 to #19
+
+* **STEP 3** <br>
+  After the execution is complete, the generator model will be saved in your root direcrtory of the project as `AnimeColorizationModelv1.h5` file. You can use this model to directly generate colored images from any Black and White images in just a few seconds. Please note that the images used for training are digitally drawn sketches. So, use images with perfect white background to see near perfect results.
+
+  <br>
+
+  You can see some of the results from hand drawn sketches shown below: 
+
+  ![Hand Drawn Sketch to Colored Image Output](./assets/HandDrawnSketchtoColoredImageOutput.png)
 
 <!-- RESULTS AND DEMO -->
 ## Results and Demo
@@ -121,24 +147,17 @@ python3 landmarks.py
 <!-- ![**result gif or video**](https://result.gif)   -->
 ### Detecting Emotions
 
-[outputs](https://user-images.githubusercontent.com/84740927/137188526-28e39eb4-081c-421b-931b-7fe20ec0b5a4.gif)
-
-### Displaying Statistical Data For Emotions
-![Displaying Statistical Data For Emotions](docs/results/graph.png)
-<!-- | Use  |  Table  | -->
-<!-- |:----:|:-------:| -->
-<!-- | For  | Comparison| -->
+![Sketch to Color Image Generation using Conditional GANs](./assets/outputs.gif)
 
 
 <!-- FUTURE WORK -->
-## Future Work
-* See [todo.md](https://todo.md) for seeing developments of this project
-- [x] To Make an emotion detector model
-- [x] To connect it to a live feed for live detection
-- [x] To give statistical data in the form of graphs
-- [ ] To increase the accuracy of the model
-- [ ] To deploy the model in the form of an emotion detector app or site
+## Future Works
 
+I've been working on GANs for a lot of time and planning to continue exploring the field for further applications and research work. Some of the points that I think this project can grow or be a base for are listed below.
+
+1. Trying different databases to get an idea of preprocessing different types of images and building models specific to those input image types.
+2. This is a project applied on individual Image to Image translation. Further the model can be used to process black and white sketch video frames to generate colored videos.
+3. Converting the model from HDF5 to json and building interesting web apps using [TensorFlow.Js](https://www.tensorflow.org/js).
 
 <!-- TROUBLESHOOTING -->
 ## Troubleshooting
@@ -147,17 +166,17 @@ python3 landmarks.py
 
 <!-- CONTRIBUTORS -->
 ## Contributors
-* [Anushree Sabnis](https://github.com/MOLOCH-dev)
-* [Saad Hashmi](https://github.com/hashmis79)
-* [Shivam Pawar](https://github.com/theshivv)
-* [Vivek Rajput](https://github.com/Vivek-RRajput)
+* [Neel Shah](https://github.com/Neel-Shah-29)
+* [Kunal Agrawal](https://github.com/KunalA18)
+
 
 
 <!-- ACKNOWLEDGEMENTS AND REFERENCES -->
 ## Acknowledgements and Resources
-* [SRA VJTI](http://sra.vjti.info/) Eklavya 2020  
+* [SRA VJTI](https://www.sravjti.in/) Eklavya 2021  
 * Refered [this](https://www.coursera.org/learn/introduction-tensorflow) for understanding how to use tensorflow
 * Refered [this](https://www.coursera.org/learn/convolutional-neural-networks) course for understanding Convolutional Neural Networks
+* [Refered](https://www.tensorflow.org/tutorials/generative/pix2pix)
 * Refered [towardsdatascience](https://towardsdatascience.com/) and [machinelearningmastery](https://machinelearningmastery.com/) for frequent doubts  
 ...
 
