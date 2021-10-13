@@ -59,7 +59,6 @@ This section should list the technologies you used for this project. Leave any a
 
 ### Prerequisites
 
-* See [SETUP.md](https://link/to/setup.md) if there are plenty of instructions
 * The installations provided below are subjective to the machine your are using
 * We used [pip install(https://pip.pypa.io/en/stable/)] for the installations. If you don't have pip please follow the following command
 ```sh
@@ -67,9 +66,14 @@ This section should list the technologies you used for this project. Leave any a
 ```
 * List of softwares with version tested on:
   * TensorFlow
-   python3 -m pip install tensorflow
-   ```sh
-  ```
+  
+    [Tensorflow 2.2 and above](https://www.tensorflow.org/install/pip)
+    
+  * Python
+
+    [Python 3.6 and above](https://www.python.org/downloads/release/python-360/)
+
+  
   * Numpy
   ```sh
    python3 -m pip install numpy
@@ -88,14 +92,16 @@ This section should list the technologies you used for this project. Leave any a
   ```sh
    python3 -m pip install opencv-contrib-python
   ```
-  * scikit learn
+  * GPU support requires a CUDA®-enabled card
+  
+    (https://www.tensorflow.org/install/gpu)
 
 
 
 ### Installation
 1. Clone the repo
 ```sh
-git clone https://github.com/hashmis79/Moodylyser
+git clone https://github.com/KunalA18/Sketch-2-Paint
 ```
 
 
@@ -114,7 +120,9 @@ python3 landmarks.py
 <!-- [**result screenshots**](https://result.png)   -->
 <!-- ![**result gif or video**](https://result.gif)   -->
 ### Detecting Emotions
-![Detecting Emotions](docs/results/happy.png)
+
+[outputs](https://user-images.githubusercontent.com/84740927/137188526-28e39eb4-081c-421b-931b-7fe20ec0b5a4.gif)
+
 ### Displaying Statistical Data For Emotions
 ![Displaying Statistical Data For Emotions](docs/results/graph.png)
 <!-- | Use  |  Table  | -->
