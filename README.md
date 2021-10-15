@@ -1,5 +1,6 @@
 # Sketch-2-Paint
 <<<<<<< HEAD
+<<<<<<< HEAD
 Style transfer using GANs
 # Resources 
 https://docs.google.com/document/d/1xVNtP6FRYobovJ5FCDxW1zt2ocy1F79MVpKHdzVfw08/edit?usp=sharing
@@ -156,3 +157,5 @@ We enjoyed working on GANs during our project and plan to continue exploring the
 # License
 Describe your [License](LICENSE) for your project.
 >>>>>>> test
+=======
+>>>>>>> 9386c3436857e5ed8f0f64309f716a83db61d681
