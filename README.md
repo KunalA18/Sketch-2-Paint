@@ -1,4 +1,5 @@
 # Sketch-2-Paint
+
 ![Sketch to Color Image Generation using Conditional GANs](./assets/ezgif.com-gif-maker.gif)
 <!-- TABLE OF CONTENTS -->
 ## Table of Contents
