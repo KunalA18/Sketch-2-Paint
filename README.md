@@ -44,6 +44,8 @@ This section contains the technologies we used for this project.
 * [Matplotlib](https://matplotlib.org/)
 * [Numpy](https://numpy.org/doc/#)  
 * [Google Colab](https://colab.research.google.com/)
+
+## Dataset
 * [Kaggle Dataset(Anime Sketch Colorization Pair)](https://www.kaggle.com/ktaebum/anime-sketch-colorization-pair)
 
 
