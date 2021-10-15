@@ -16,7 +16,6 @@
 - [Usage](#usage)
 - [Results and Demo](#results-and-demo)
 - [Future Works](#future-works)
-- [Troubleshooting](#troubleshooting)
 - [Contributors](#contributors)
 - [Acknowledgements and Resources](#acknowledgements-and-resources)
 - [License](#license)
