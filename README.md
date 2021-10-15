@@ -137,7 +137,7 @@ We enjoyed working on GANs during our project and plan to continue exploring the
 # Acknowledgements and Resources
 * [SRA VJTI](https://www.sravjti.in/) Eklavya 2021  
 * Referred [this](https://www.tensorflow.org/) for understanding the use of tensorflow
-* Completed [these](https://www.coursera.org/learn/convolutional-neural-networks) 4 courses for understanding Deep Learning concepts like Convulational Neural networks and learnt to make a DL model
+* Completed [these](https://www.coursera.org/specializations/deep-learning) 4 courses for understanding Deep Learning concepts like Convulational Neural networks and learnt to make a DL model
 * Referred [this](https://www.tensorflow.org/tutorials/generative/pix2pix) for understanding code statements
 * Referred [this](https://towardsdatascience.com/generative-adversarial-networks-gans-8fc303ad5fa1) to understand the concept of GANs 
 
