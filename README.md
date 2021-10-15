@@ -61,8 +61,8 @@ This section contains the technologies we used for this project.
         ├── builddiscriminator.py
         ├── buildgenerator.py
         ├── runmodel.py                 
-    ├── license                # MIT license
-    ├── readme.md              # readme.md
+    ├── LICENSE                # MIT license
+    ├── README.md              # readme.md
     ├── sketch_2_paint.ipynb   # colab notebook     
  
 
