@@ -10,6 +10,7 @@
   - [Aim](#aim)
   - [Description](#description)
   - [Tech Stack](#tech-stack)
+  - [Dataset](#dataset)
   - [File Structure](#file-structure)
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
