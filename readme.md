@@ -49,14 +49,22 @@ This section contains the technologies we used for this project.
 
 ## File Structure
     .
-    ├── docs                    # Documentation files (alternatively `doc`)
-    │   ├── report.pdf          # Project report
-    │   └── results             # Folder containing screenshots, gifs, videos of results
-    ├── MOODYLYSER2f.ipynb                  # Training program for the Model
-    ├── Moodelld1_5de.h5                  # Pretrained Model with set weights
-    ├── README.md
-    ├── landmarks.py                  # Connects the model to a live videofeed via webcams
-
+    ├── assets                 # Folder containing gifs
+    ├── notes                  # Notes of project
+        ├── 3b1b_notes
+        ├── deep_learning_notes
+        ├── face_aging
+        ├── gans
+        ├── linear_algebra_notes                
+    ├── resources              # List of all resources
+    ├── src                    # Source code files
+        ├── builddiscriminator.py
+        ├── buildgenerator.py
+        ├── runmodel.py                 
+    ├── license                # MIT license
+    ├── readme.md              # readme.md
+    ├── sketch_2_paint.ipynb   # colab notebook     
+ 
 
 <!-- GETTING STARTED -->
 # Getting Started
@@ -85,21 +93,8 @@ To download and use this code, the minimum requirements are:
 
 # Usage
 
-Once the requirements are checked, you can easily download this project and use it on your machine in few simple steps.
+Once the requirements are checked, you can easily download this project and use it on your machine.
 
-* **STEP 1** <br>
-    Download this repository as a zip file onto your machine and extract all the files from it.
-
-    ![Download and Extract Zip Folder](./assets/DownloadAndExtractFiles.gif)
-
-    <br>
-
-* **STEP 2** <br>
-  Run the [runModel.py](./runModel.py) file using python to see the solution
-
-  ![Run runModel.py Using Python](./assets/RunModelPythonFile.gif)
-
-  <br>
 
 > NOTE:
 >
@@ -107,7 +102,7 @@ Once the requirements are checked, you can easily download this project and use 
 >  
 > 2 - GANs are resource intensive models so if you run into OutOfMemory or such erros, try customizing the variables as per your needs available from line #15 to #19
 
-* **STEP 3** <br>
+* 
   After the execution is complete, the generator model will be saved in your root direcrtory of the project as `AnimeColorizationModelv1.h5` file. You can use this model to directly generate colored images from any Black and White images in just a few seconds. Please note that the images used for training are digitally drawn sketches. So, use images with perfect white background to see near perfect results.
 
   <br>
@@ -118,10 +113,6 @@ Once the requirements are checked, you can easily download this project and use 
 
 <!-- RESULTS AND DEMO -->
 # Results and Demo
-<!-- Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space.   -->
-<!-- [**result screenshots**](https://result.png)   -->
-<!-- ![**result gif or video**](https://result.gif)   -->
-
 ![Sketch to Color Image Generation using Conditional GANs](./assets/outputs.gif)
 
 
