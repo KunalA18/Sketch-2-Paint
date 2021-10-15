@@ -145,4 +145,4 @@ We enjoyed working on GANs during our project and plan to continue exploring the
 
 <!-- LICENSE -->
 # License
-Describe your [License](LICENSE) for your project.
+The [License](LICENSE) used in this project.
