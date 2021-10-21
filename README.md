@@ -1,10 +1,14 @@
 # Sketch-2-Paint
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Style transfer using GANs
 # Resources 
 https://docs.google.com/document/d/1xVNtP6FRYobovJ5FCDxW1zt2ocy1F79MVpKHdzVfw08/edit?usp=sharing
 =======
+=======
+
+>>>>>>> 08eb1930a80ab8ede44333a94d85e73372c1d9d9
 ![Sketch to Color Image Generation using Conditional GANs](./assets/ezgif.com-gif-maker.gif)
 <!-- TABLE OF CONTENTS -->
 ## Table of Contents
@@ -15,6 +19,7 @@ https://docs.google.com/document/d/1xVNtP6FRYobovJ5FCDxW1zt2ocy1F79MVpKHdzVfw08/
   - [Aim](#aim)
   - [Description](#description)
   - [Tech Stack](#tech-stack)
+  - [Dataset](#dataset)
   - [File Structure](#file-structure)
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
@@ -22,7 +27,6 @@ https://docs.google.com/document/d/1xVNtP6FRYobovJ5FCDxW1zt2ocy1F79MVpKHdzVfw08/
 - [Usage](#usage)
 - [Results and Demo](#results-and-demo)
 - [Future Works](#future-works)
-- [Troubleshooting](#troubleshooting)
 - [Contributors](#contributors)
 - [Acknowledgements and Resources](#acknowledgements-and-resources)
 - [License](#license)
@@ -50,6 +54,8 @@ This section contains the technologies we used for this project.
 * [Matplotlib](https://matplotlib.org/)
 * [Numpy](https://numpy.org/doc/#)  
 * [Google Colab](https://colab.research.google.com/)
+
+## Dataset
 * [Kaggle Dataset(Anime Sketch Colorization Pair)](https://www.kaggle.com/ktaebum/anime-sketch-colorization-pair)
 
 
@@ -61,14 +67,15 @@ This section contains the technologies we used for this project.
         ├── deep_learning_notes
         ├── face_aging
         ├── gans
-        ├── linear_algebra_notes                
+        ├── linear_algebra_notes
+    ├── report                 # Project report
     ├── resources              # List of all resources
     ├── src                    # Source code files
         ├── builddiscriminator.py
         ├── buildgenerator.py
         ├── runmodel.py                 
-    ├── license                # MIT license
-    ├── readme.md              # readme.md
+    ├── LICENSE                # MIT license
+    ├── README.md              # readme.md
     ├── sketch_2_paint.ipynb   # colab notebook     
  
 
@@ -131,10 +138,6 @@ We enjoyed working on GANs during our project and plan to continue exploring the
 2. This is a project applied on individual Image to Image translation. Further the model can be used to process black and white sketch video frames to generate colored videos.
 3. Converting the model from HDF5 to json and building interesting web apps using [TensorFlow.Js](https://www.tensorflow.org/js).
 
-<!-- TROUBLESHOOTING -->
-# Troubleshooting
-* Common errors while configuring the project
-
 
 <!-- CONTRIBUTORS -->
 # Contributors
@@ -147,7 +150,7 @@ We enjoyed working on GANs during our project and plan to continue exploring the
 # Acknowledgements and Resources
 * [SRA VJTI](https://www.sravjti.in/) Eklavya 2021  
 * Referred [this](https://www.tensorflow.org/) for understanding the use of tensorflow
-* Completed [these](https://www.coursera.org/learn/convolutional-neural-networks) 4 courses for understanding Deep Learning concepts like Convulational Neural networks and learnt to make a DL model
+* Completed [these](https://www.coursera.org/specializations/deep-learning) 4 courses for understanding Deep Learning concepts like Convulational Neural networks and learnt to make a DL model
 * Referred [this](https://www.tensorflow.org/tutorials/generative/pix2pix) for understanding code statements
 * Referred [this](https://towardsdatascience.com/generative-adversarial-networks-gans-8fc303ad5fa1) to understand the concept of GANs 
 
@@ -155,7 +158,11 @@ We enjoyed working on GANs during our project and plan to continue exploring the
 
 <!-- LICENSE -->
 # License
+<<<<<<< HEAD
 Describe your [License](LICENSE) for your project.
 >>>>>>> test
 =======
 >>>>>>> 9386c3436857e5ed8f0f64309f716a83db61d681
+=======
+The [License](LICENSE) used in this project.
+>>>>>>> 08eb1930a80ab8ede44333a94d85e73372c1d9d9
