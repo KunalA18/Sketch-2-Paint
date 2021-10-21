@@ -1,5 +1,4 @@
 # Sketch-2-Paint
-
 ![Sketch to Color Image Generation using Conditional GANs](./assets/ezgif.com-gif-maker.gif)
 <!-- TABLE OF CONTENTS -->
 ## Table of Contents
@@ -58,7 +57,8 @@ This section contains the technologies we used for this project.
         ├── deep_learning_notes
         ├── face_aging
         ├── gans
-        ├── linear_algebra_notes                
+        ├── linear_algebra_notes
+    ├── report                 # Project report
     ├── resources              # List of all resources
     ├── src                    # Source code files
         ├── builddiscriminator.py
