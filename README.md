@@ -125,7 +125,7 @@ We enjoyed working on GANs during our project and plan to continue exploring the
 
 1. Trying different databases to get an idea of preprocessing different types of images and building models specific to those input image types.
 2. This is a project applied on individual Image to Image translation. Further the model can be used to process black and white sketch video frames to generate colored videos.
-3. Converting the model from HDF5 to json and building interesting web apps using [TensorFlow.Js](https://www.tensorflow.org/js).
+
 
 
 <!-- CONTRIBUTORS -->
