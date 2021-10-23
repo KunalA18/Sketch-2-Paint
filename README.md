@@ -50,7 +50,7 @@ This section contains the technologies we used for this project.
 
 
 ## File Structure
-    .
+    
     ├── assets                 # Folder containing gifs
     ├── notes                  # Notes of project
         ├── 3b1b_notes
