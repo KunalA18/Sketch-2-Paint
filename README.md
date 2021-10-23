@@ -50,63 +50,23 @@ This section contains the technologies we used for this project.
 
 
 ## File Structure
- ┣ 📂assets                                                     ----------------------------------------# Folder containing gifs
- 
- ┃ ┣ 📜ezgif.com-gif-maker.gif
- 
- ┃ ┣ 📜HandDrawnSketchtoColoredImageOutput.png
- 
- ┃ ┗ 📜outputs.gif
- 
- ┣ 📂notes                                                     ----------------------------------------# Notes of project
- 
- ┃ ┣ 📂3b1b_notes
- 
- ┃ ┃ ┣ 📜3b1b_neural_network.pdf
- 
- ┃ ┃ ┗ 📜neural_networks_3b1b.pdf
- 
- ┃ ┣ 📂deep_learning_notes
- 
- ┃ ┃ ┣ 📜deep_learning_notes.pdf
- 
- ┃ ┃ ┗ 📜notes_of_neural_networks_and_deep_learning.pdf
- 
- ┃ ┣ 📂face_aging
- 
- ┃ ┃ ┣ 📜queries_related_to_research_paper
- 
- ┃ ┃ ┗ 📜wang_face_aging_with_cvpr.pdf
- 
- ┃ ┣ 📂gans
- 
- ┃ ┃ ┗ 📜gans.pdf
- 
- ┃ ┗ 📂linear_algebra_notes
- 
- ┃ ┃ ┗ 📜linear_algebra_notes.pdf
- 
- ┣ 📂report                                                    ----------------------------------------# Project report
- 
- ┃ ┗ 📜report_sketch_2_paint.pdf
- 
- ┣ 📂resources                                                 ----------------------------------------# List of all resources
- 
- ┃ ┗ 📜resources_sketch_2_paint.pdf
- 
- ┣ 📂src                                                       ----------------------------------------# Source code files
- 
- ┃ ┣ 📜builddiscriminator.py
- 
- ┃ ┣ 📜buildgenerator.py
- 
- ┃ ┗ 📜runmodel.py
- 
- ┣ 📜license                                                   ----------------------------------------# MIT license
- 
- ┣ 📜README.md                                                 ----------------------------------------# readme.md
- 
- ┗ 📜sketch_2_paint.ipynb                                      ----------------------------------------# colab notebook
+    .
+    ├── assets                 # Folder containing gifs
+    ├── notes                  # Notes of project
+        ├── 3b1b_notes
+        ├── deep_learning_notes
+        ├── face_aging
+        ├── gans
+        ├── linear_algebra_notes
+    ├── report                 # Project report
+    ├── resources              # List of all resources
+    ├── src                    # Source code files
+        ├── builddiscriminator.py
+        ├── buildgenerator.py
+        ├── runmodel.py                 
+    ├── LICENSE                # MIT license
+    ├── README.md              # readme.md
+    ├── sketch_2_paint.ipynb   # colab notebook 
 
 <!-- GETTING STARTED -->
 # Getting Started
