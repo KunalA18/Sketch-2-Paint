@@ -16,6 +16,7 @@
   - [Installation](#installation)
 - [Usage](#usage)
 - [Results and Demo](#results-and-demo)
+- [Troubleshooting](#troubleshooting)
 - [Future Works](#future-works)
 - [Contributors](#contributors)
 - [Acknowledgements and Resources](#acknowledgements-and-resources)
@@ -116,6 +117,11 @@ Once the requirements are checked, you can easily download this project and use 
 <!-- RESULTS AND DEMO -->
 # Results and Demo
 ![Sketch to Color Image Generation using Conditional GANs](./assets/outputs.gif)
+
+# Troubleshooting
+
+If you are planning on using any cloud environments like Google Colab, you need to keep in mind that the training is going to take a lot of time as GANs are computationally quite heavy to run. Google Colab has an absolute timeout of 12 hours which means that the notebook kernel is reset so you’ll need to consider some points like mounting the Google Drive and saving checkpoints after regular intervals so that you can continue training from where it left off before the timeout.
+
 
 
 <!-- FUTURE WORK -->
