@@ -50,7 +50,7 @@ This section contains the technologies we used for this project.
 
 
 ## File Structure
-    
+    .
     ├── assets                 # Folder containing gifs
     ├── notes                  # Notes of project
         ├── 3b1b_notes
@@ -142,7 +142,7 @@ We enjoyed working on GANs during our project and plan to continue exploring the
 * Completed [these](https://www.coursera.org/specializations/deep-learning) 4 courses for understanding Deep Learning concepts like Convulational Neural networks and learnt to make a DL model
 * Referred [this](https://www.tensorflow.org/tutorials/generative/pix2pix) for understanding code statements
 * Referred [this](https://towardsdatascience.com/generative-adversarial-networks-gans-8fc303ad5fa1) to understand the concept of GANs 
-
+* Special Thanks to our awesome mentors [Saurabh Powar](https://github.com/Spnetic-5) and [Chaitravi Chalke](https://github.com/chaitravi-ce) who always helped us during our project journey
 
 
 <!-- LICENSE -->
