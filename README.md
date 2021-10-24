@@ -53,22 +53,23 @@ This section contains the technologies we used for this project.
 
 ## File Structure
 
-    ├── assets                 # Folder containing gifs
-    ├── notes                  # Notes of project
+    ├── assets                   # Folder containing gifs
+    ├── notes                    # Notes of project
         ├── 3b1b_notes
         ├── deep_learning_notes
         ├── face_aging
         ├── gans
         ├── linear_algebra_notes
-    ├── report                 # Project report
-    ├── resources              # List of all resources
-    ├── src                    # Source code files
+    ├── report                   # Project report
+    ├── resources                # List of all resources
+    ├── src                      # Source code files
         ├── builddiscriminator.py
         ├── buildgenerator.py
         ├── runmodel.py                 
-    ├── LICENSE                # MIT license
-    ├── README.md              # readme.md
-    ├── sketch_2_paint.ipynb   # colab notebook 
+    ├── LICENSE                  # MIT license
+    ├── README.md                # readme.md
+    ├── sketch_2_paint.ipynb     # colab notebook 
+    ├── sketch_2_paint_v2.ipynb  # colab notebook with better results
 
 <!-- GETTING STARTED -->
 # Getting Started
