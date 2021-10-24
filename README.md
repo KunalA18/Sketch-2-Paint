@@ -14,8 +14,10 @@
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
+- [Theory and Approach](#theory-and-approach)
 - [Usage](#usage)
 - [Results and Demo](#results-and-demo)
+- [Troubleshooting](#troubleshooting)
 - [Future Works](#future-works)
 - [Contributors](#contributors)
 - [Acknowledgements and Resources](#acknowledgements-and-resources)
@@ -50,7 +52,7 @@ This section contains the technologies we used for this project.
 
 
 ## File Structure
-    .
+
     ├── assets                 # Folder containing gifs
     ├── notes                  # Notes of project
         ├── 3b1b_notes
@@ -66,8 +68,7 @@ This section contains the technologies we used for this project.
         ├── runmodel.py                 
     ├── LICENSE                # MIT license
     ├── README.md              # readme.md
-    ├── sketch_2_paint.ipynb   # colab notebook     
- 
+    ├── sketch_2_paint.ipynb   # colab notebook 
 
 <!-- GETTING STARTED -->
 # Getting Started
@@ -90,6 +91,15 @@ To download and use this code, the minimum requirements are:
  ```sh
  git clone https://github.com/KunalA18/Sketch-2-Paint
  ```
+ 
+# Theory and Approach
+Generative Adversarial Networks, or GANs for short, are an approach to generative modeling using deep learning methods, such as convolutional neural networks.
+
+Generative modeling is an unsupervised learning task in machine learning that involves automatically discovering and learning the regularities or patterns in input data in such a way that the model can be used to generate or output new examples that plausibly could have been drawn from the original dataset.
+
+GANs are a clever way of training a generative model by framing the problem as a supervised learning problem with two sub-models: the generator model that we train to generate new examples, and the discriminator model that tries to classify examples as either real (from the domain) or fake (generated). The two models are trained together in a zero-sum game, adversarial, until the discriminator model is fooled about half the time, meaning the generator model is generating plausible examples.
+
+GANs are an exciting and rapidly changing field, delivering on the promise of generative models in their ability to generate realistic examples across a range of problem domains, most notably in image-to-image translation tasks such as translating photos of summer to winter or day to night, and in generating photorealistic photos of objects, scenes, and people that even humans cannot tell are fake.
 
 
 <!-- USAGE EXAMPLES -->
@@ -118,6 +128,11 @@ Once the requirements are checked, you can easily download this project and use 
 # Results and Demo
 ![Sketch to Color Image Generation using Conditional GANs](./assets/outputs.gif)
 
+# Troubleshooting
+
+If you are planning on using any cloud environments like Google Colab, you need to keep in mind that the training is going to take a lot of time as GANs are computationally quite heavy to run. Google Colab has an absolute timeout of 12 hours which means that the notebook kernel is reset so you’ll need to consider some points like mounting the Google Drive and saving checkpoints after regular intervals so that you can continue training from where it left off before the timeout.
+
+
 
 <!-- FUTURE WORK -->
 # Future Works
@@ -126,7 +141,7 @@ We enjoyed working on GANs during our project and plan to continue exploring the
 
 1. Trying different databases to get an idea of preprocessing different types of images and building models specific to those input image types.
 2. This is a project applied on individual Image to Image translation. Further the model can be used to process black and white sketch video frames to generate colored videos.
-3. Converting the model from HDF5 to json and building interesting web apps using [TensorFlow.Js](https://www.tensorflow.org/js).
+
 
 
 <!-- CONTRIBUTORS -->
@@ -143,10 +158,13 @@ We enjoyed working on GANs during our project and plan to continue exploring the
 * Completed [these](https://www.coursera.org/specializations/deep-learning) 4 courses for understanding Deep Learning concepts like Convulational Neural networks and learnt to make a DL model
 * Referred [this](https://www.tensorflow.org/tutorials/generative/pix2pix) for understanding code statements
 * Referred [this](https://towardsdatascience.com/generative-adversarial-networks-gans-8fc303ad5fa1) to understand the concept of GANs 
-
+* Special Thanks to our awesome mentors [Saurabh Powar](https://github.com/Spnetic-5) and [Chaitravi Chalke](https://github.com/chaitravi-ce) who always helped us during our project journey
 
 
 <!-- LICENSE -->
 # License
 The [License](LICENSE) used in this project.
+<<<<<<< HEAD
 
+=======
+>>>>>>> 7953d03384dccf0d8f786a95561f196cefb3913a
