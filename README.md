@@ -1,14 +1,4 @@
 # Sketch-2-Paint
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-Style transfer using GANs
-# Resources 
-https://docs.google.com/document/d/1xVNtP6FRYobovJ5FCDxW1zt2ocy1F79MVpKHdzVfw08/edit?usp=sharing
-=======
-=======
-
->>>>>>> 08eb1930a80ab8ede44333a94d85e73372c1d9d9
 ![Sketch to Color Image Generation using Conditional GANs](./assets/ezgif.com-gif-maker.gif)
 <!-- TABLE OF CONTENTS -->
 ## Table of Contents
@@ -158,11 +148,5 @@ We enjoyed working on GANs during our project and plan to continue exploring the
 
 <!-- LICENSE -->
 # License
-<<<<<<< HEAD
-Describe your [License](LICENSE) for your project.
->>>>>>> test
-=======
->>>>>>> 9386c3436857e5ed8f0f64309f716a83db61d681
-=======
 The [License](LICENSE) used in this project.
->>>>>>> 08eb1930a80ab8ede44333a94d85e73372c1d9d9
+
